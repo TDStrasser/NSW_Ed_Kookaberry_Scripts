@@ -3,6 +3,7 @@
 #
 # Blinking two alternately LEDs on the Kookaberry
 # The Kookaberry has three in-built LEDs to use: kooka.led_red; kooka.led_orange; kooka.led_green
+# Reference: https://kookaberry-reference-guide.readthedocs.io/en/latest/kooka.html
 #
 # Description of the algorithm to be implemented
 #START

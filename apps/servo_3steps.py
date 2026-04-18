@@ -2,6 +2,7 @@
 # This MicroPython script for the Kookaberry was prepared by the AustSTEM Foundation
 #
 # Moving a servo between three positions using the Kookaberry
+# Reference: https://kookaberry-reference-guide.readthedocs.io/en/latest/kooka.html#kooka.kooka.Servo
 #
 # Description of the algorithm to be implemented
 #START
