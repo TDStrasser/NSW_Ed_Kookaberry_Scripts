@@ -5,7 +5,7 @@
 # Reference: https://kookaberry-reference-guide.readthedocs.io/en/latest/kooka.html#kooka.kooka.Servo
 #
 # Description of the algorithm to be implemented
-#START
+# START
 # |
 # +─ IMPORT libraries (kooka, sleep)
 # +─ INITIALISE variables (open_time, close_time)

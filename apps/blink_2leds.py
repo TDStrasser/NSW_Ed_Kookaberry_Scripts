@@ -6,7 +6,7 @@
 # Reference: https://kookaberry-reference-guide.readthedocs.io/en/latest/kooka.html
 #
 # Description of the algorithm to be implemented
-#START
+# START
 # |
 # +─ IMPORT libraries (kooka, sleep)
 # +─ INITIALISE variables (blink_time)
