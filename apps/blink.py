@@ -2,6 +2,7 @@
 # This MicroPython script for the Kookaberry was prepared by the AustSTEM Foundation
 #
 # Blinking a LED on the Kookaberry
+# The Kookaberry has three in-built LEDs to use: kooka.led_red; kooka.led_orange; kooka.led_green
 #
 # Description of the algorithm to be implemented
 #START
