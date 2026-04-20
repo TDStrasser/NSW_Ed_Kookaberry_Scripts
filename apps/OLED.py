@@ -3,7 +3,6 @@
 
 # Format and show information on the Kookaberry's display
 
-# The Kookaberry has three in-built LEDs to use: kooka.led_red; kooka.led_orange; kooka.led_green
 # Reference: https://kookaberry-reference-guide.readthedocs.io/en/latest/kooka.html#class-display-access-to-the-kookaberry-s-oled-display-and-underlying-framebuffer
 
 # Description of the algorithm to be implemented
