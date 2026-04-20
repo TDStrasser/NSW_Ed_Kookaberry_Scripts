@@ -1,7 +1,7 @@
 # Text beginning with # is a comment
 # This MicroPython script for the Kookaberry was prepared by the AustSTEM Foundation
 
-# Blinking a LED on the Kookaberry
+# Blinking a LED on the Kookaberry using a loop and toggle method
 
 # The Kookaberry has three in-built LEDs to use: kooka.led_red; kooka.led_orange; kooka.led_green
 # Reference: https://kookaberry-reference-guide.readthedocs.io/en/latest/kooka.html
