@@ -24,7 +24,7 @@ from machine import Pin  # import the library for input/output Pins on the Kooka
 from time import sleep # import a library for time delays
 
 # INITIALISE variables
-blink_time = 0.5 # Sets the variable that determines the blink on/off time
+blink_time = 0.5 # Sets the value of the variable that determines the blink on/off time
 
 # INITIALISE Pin as output
 led_output = Pin("P1", Pin.OUT) # Sets the Pin on plug P1 as an output
@@ -32,9 +32,9 @@ led_output = Pin("P1", Pin.OUT) # Sets the Pin on plug P1 as an output
 # REPEAT forever
 while True:
     # DELAY for blink_time
-    sleep(blink_time) # Uses the blink time variable initialsed earlier
+    sleep(blink_time) # Uses the blink time variable initialised earlier
 
-    # TOGGLE the red / orange / green LED
+    # TOGGLE the LED
     led_output.toggle()
 
 # END of script

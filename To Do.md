@@ -1,10 +1,13 @@
-Suggested scripts
+Scripts completed
 -----------------
- 
 
 * Blink script as is
 * Servo – simple script showing how to set a position - ie angle
 * Continuous Servo – simple script showing how to run the servo both forwards and backwards
+
+Suggested scripts
+-----------------
+ 
 * Ultrasonic Distance Sensor – Simple script showing how to get the distance
 * Ultrasonic sensor – simple script showing the sensor detecting an object
 * Servo Script – detect an object (car) and raise boom gate.  Wait for car to go through, sense it has passed and lower boom gate
