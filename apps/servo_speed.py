@@ -16,6 +16,7 @@
 # +- INITIALISE Servo 
 # |
 # +- SET Servo to the preset speed
+# |
 # END
 
 # START of script

@@ -15,6 +15,7 @@
 # +- INITIALISE Servo 
 # |
 # +- SET Servo position to the preset angle
+# |
 # END
 
 # START of script
