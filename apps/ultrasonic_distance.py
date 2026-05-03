@@ -5,7 +5,7 @@
 # IMPORTANT: Use only the 3.3 volt distance sensors to avoid damaging the Kookaberry
 #            e.g. Type RCWL1601 - https://core-electronics.com.au/33v-ultrasonic-distance-sensor.html
 
-# Reference: TBA pending
+# Reference: Ultrasonic TBA pending
 
 # Description of the algorithm to be implemented
 # START
