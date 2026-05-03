@@ -39,20 +39,20 @@ while True:
     # MOVE Servo to 45 degrees
     servo.angle(45) # Move the Servo to 0 degrees
 
-# DELAY for open_time
-    sleep(delay_time) # Uses the open time variable initialsed earlier
+    # DELAY for open_time
+    sleep(delay_time) # Uses the open time variable initialised earlier
 
     # MOVE Servo to 90 degrees
     servo.angle(90) # Move the Servo to 0 degrees
     
     # DELAY for open_time
-    sleep(delay_time) # Uses the open time variable initialsed earlier
+    sleep(delay_time) # Uses the open time variable initialised earlier
     
-    # TOGGLE the red / orange / green LED
+    # MOVE Servo back to 0 degrees
     servo.angle(0) # Move the Servo back to 0 degrees
     
     # DELAY for close_time
-    sleep(delay_time) # Uses the close time variable initialsed earlier
+    sleep(delay_time) # Uses the close time variable initialised earlier
     
 # END of script
 

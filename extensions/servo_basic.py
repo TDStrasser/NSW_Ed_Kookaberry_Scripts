@@ -1,7 +1,7 @@
 # Text beginning with # is a comment
 # This MicroPython script for the Kookaberry was prepared by the AustSTEM Foundation
 
-# Moving a servo using the Kookaberry
+# Moving a servo repeatedly using the Kookaberry
 
 # Reference: https://kookaberry-reference-guide.readthedocs.io/en/latest/kooka.html#kooka.kooka.Servo
 
@@ -40,7 +40,7 @@ while True:
     # DELAY for open_time
     sleep(delay_time) # Uses the open time variable initialsed earlier
     
-    # TOGGLE the red / orange / green LED
+    # MOVE Servo back to 0 degrees
     servo.angle(0) # Move the Servo back to 0 degrees
     
     # DELAY for close_time

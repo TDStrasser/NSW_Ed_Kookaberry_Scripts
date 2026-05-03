@@ -29,6 +29,6 @@ angle = 45 # Sets the value of the angle to be set in degrees.
 servo = kooka.Servo('P1') # Define a servo connected to Kookaberry plug P1
 
 # SET Servo position to the preset angle
-servo.angle(angle) # Move the Servo to 0 degrees
+servo.angle(angle) # Move the Servo to preset angle
 
 # END of script
