@@ -1,7 +1,7 @@
 # Text beginning with # is a comment
 # This MicroPython script for the Kookaberry was prepared by the AustSTEM Foundation
 
-# Measuring distance using an ultrasonic distance sensor connected to two Pins on the Kookaberry
+# Measuring distance using an ultrasonic distance sensor connected to two Pins (Plug P3) on the Kookaberry
 # IMPORTANT: Use only the 3.3 volt distance sensors to avoid damaging the Kookaberry
 #            e.g. Type RCWL1601 - https://core-electronics.com.au/33v-ultrasonic-distance-sensor.html
 

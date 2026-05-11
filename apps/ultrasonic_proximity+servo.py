@@ -1,8 +1,9 @@
 # Text beginning with # is a comment
 # This MicroPython script for the Kookaberry was prepared by the AustSTEM Foundation
 
-# Measuring proximity using an ultrasonic distance sensor and a LED connected to Pins on the Kookaberry
-# Operate a Servo when proximity changes
+# Measuring proximity using an ultrasonic distance sensor connected to Pins on the Kookaberry (Plug P3)
+# Operates a Servo (connected to Plug P1) when proximity changes
+# Lights an external LED (connected to Plug P2) when the Servo is activated while proximity remains on
 # IMPORTANT: Use only the 3.3 volt distance sensors to avoid damaging the Kookaberry
 #            e.g. Type RCWL1601 - https://core-electronics.com.au/33v-ultrasonic-distance-sensor.html
 

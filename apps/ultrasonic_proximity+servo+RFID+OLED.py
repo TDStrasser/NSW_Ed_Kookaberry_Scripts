@@ -1,9 +1,10 @@
 # Text beginning with # is a comment
 # This MicroPython script for the Kookaberry was prepared by the AustSTEM Foundation
 
-# Measuring proximity using an ultrasonic distance sensor and a LED connected to Pins on the Kookaberry
-# Display prompts on an outboard OLED display
-# Operate a Servo when a valid RFID tag to be presented to the tag reader
+# Measuring proximity using an ultrasonic distance sensor connected to Pins on the Kookaberry (Plug P3)
+# Display prompts on an outboard OLED display (connected to Plug P6 - GP4 and GP5)
+# Operates a Servo (connected to Plug P1) when a valid RFID tag to be presented to the tag reader (connected to Plug P6)
+# Lights an external LED (connected to Plug P2) when the Servo is activated while proximity remains on
 # IMPORTANT: Use only the 3.3 volt distance sensors to avoid damaging the Kookaberry
 #            e.g. Type RCWL1601 - https://core-electronics.com.au/33v-ultrasonic-distance-sensor.html
 
@@ -53,7 +54,7 @@ from time import sleep
 # INITIALISE proximity distance variable (proximate)
 proximate = 25 # Distance in mm below which proximity is detected
 
-# INITIALISE RFID reader (on plug P6 contining Pins GP4 and GP5)
+# INITIALISE RFID reader (on plug P6 containing Pins GP4 and GP5)
 i2c = SoftI2C(scl="GP5", sda="GP4")
 rfid = RFID(i2c, address=36)
 # INITIALISE OLED display (on the same I2C communications link)
