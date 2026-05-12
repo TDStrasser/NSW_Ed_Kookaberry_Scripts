@@ -14,12 +14,11 @@ Scripts completed
 * VEML7700 – simple script to get Lux reading – display on REPL and Kooka Display
 * BME280  - Simple script to get Temp, Pressure and Humidity – display on REPL and on Kooka Display
 * DHT22  - Simple script to get Temperature and Humidity – display on REPL and on Kooka Display
+* DS18x20  - Simple script to get Temperature – display on REPL and on Kooka Display
 
 Suggested scripts
 -----------------
 
-
 Misc items
 ----------
 
-* DS18x20  - Simple script to get Temperature – display on REPL and on Kooka Display
