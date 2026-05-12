@@ -12,7 +12,7 @@
 # |
 # +─ INITIALISE BME280 lux sensor and I2C communications with it
 # +- INITIALISE the Kookaberry OLED display
-# +- INITIALISE the temperature, humidity and air-pressure variables
+# +- INITIALISE the temperature, humidity, and air-pressure variables
 # |
 # +- EVERY 5 seconds
 #     +─ READ temperature, humidity and air pressure from the BME280 sensor and format for printing
@@ -34,15 +34,17 @@ bme280 = BME280(i2c, address=0x77)
 oled = kooka.display
 oled.setfont(fonts.mono6x7) # Set font size to be smaller than default 8x8
 
-# INITIALISE the lux_reading variable
+# INITIALISE the BME280 sensor variables
 temperature = None
 humidity = None
 air_pressure = None
+altitude = None
 
 # Main loop code.
 while True:
     # EVERY 5 seconds.
     if kooka.time_passed(5):
+
         # READ the BME280 sensor data and format as character strings for printing
         temperature = "Temperature: {:.2f}C".format(bme280.temperature())
         humidity = "Humidity: {:.2f}%".format(bme280.humidity())
@@ -55,10 +57,10 @@ while True:
 
         # PRINT the lux level on the OLED display
         oled.clear()
-        oled.print("BME280 Readings")
+        oled.print("BME280 Readings", show=0)
         oled.print(temperature, show=0)
         oled.print(humidity, show=0)
-        oled.print(air_pressure, show=0) 
+        oled.print(air_pressure, show=0)
         oled.show()
 
 # END of script
