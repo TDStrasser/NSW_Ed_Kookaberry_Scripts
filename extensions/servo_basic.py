@@ -3,7 +3,7 @@
 
 # Moving a servo repeatedly using the Kookaberry
 
-# Reference: https://kookaberry-reference-guide.readthedocs.io/en/latest/kooka.html#kooka.kooka.Servo
+# Reference: https://kookaberry-reference-guide.readthedocs.io/en/latest/kooka.html#kooka.kooka.Servo 
 
 # Description of the algorithm to be implemented
 # START
