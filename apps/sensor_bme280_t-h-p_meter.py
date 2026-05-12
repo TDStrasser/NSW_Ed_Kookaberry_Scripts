@@ -38,7 +38,6 @@ oled.setfont(fonts.mono6x7) # Set font size to be smaller than default 8x8
 temperature = None
 humidity = None
 air_pressure = None
-altitude = None
 
 # Main loop code.
 while True:
