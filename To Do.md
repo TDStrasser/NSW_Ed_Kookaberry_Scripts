@@ -13,6 +13,7 @@ Scripts completed
 * Button Push – put button on a Pin, Put a LED on a Pin.  Simple script to show when button pushed the LED is On.
 * VEML7700 – simple script to get Lux reading – display on REPL and Kooka Display
 * BME280  - Simple script to get Temp, Pressure and Humidity – display on REPL and on Kooka Display
+* DHT22  - Simple script to get Temperature and Humidity – display on REPL and on Kooka Display
 
 Suggested scripts
 -----------------
@@ -21,5 +22,4 @@ Suggested scripts
 Misc items
 ----------
 
-* DHT22  - Simple script to get Temperature and Humidity – display on REPL and on Kooka Display
 * DS18x20  - Simple script to get Temperature – display on REPL and on Kooka Display
