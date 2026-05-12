@@ -8,7 +8,7 @@
 # Description of the algorithm to be implemented
 # START
 # |
-# +─ IMPORT libraries (kooka, bme280, softI2C)
+# +─ IMPORT libraries (kooka, bme280, softI2C, fonts)
 # |
 # +─ INITIALISE BME280 lux sensor and I2C communications with it
 # +- INITIALISE the Kookaberry OLED display
@@ -49,12 +49,12 @@ while True:
         humidity = "Humidity: {:.2f}%".format(bme280.humidity())
         air_pressure = "Pressure: {:.0f}hPa".format(bme280.pressure())
 
-        # PRINT the the lux level on the REPL console
+        # PRINT the readings on the REPL console
         print(temperature)
         print(humidity)
         print(air_pressure)
 
-        # PRINT the lux level on the OLED display
+        # PRINT the readings on the OLED display
         oled.clear()
         oled.print("BME280 Readings", show=0)
         oled.print(temperature, show=0)

@@ -8,7 +8,7 @@
 # Description of the algorithm to be implemented
 # START
 # |
-# +─ IMPORT libraries (kooka, dht22, fonts, time)
+# +─ IMPORT libraries (kooka, dht22, fonts, sleep)
 # |
 # +─ INITIALISE DHT22 sensor
 # +- INITIALISE the Kookaberry OLED display
@@ -21,7 +21,7 @@
 
 # START of script
 
-# IMPORT libraries (kooka, dht22, fonts)
+# IMPORT libraries (kooka, dht22, fonts, sleep)
 import kooka, fonts
 from kooka.dht import DHT22
 from time import sleep
@@ -33,7 +33,7 @@ dht = DHT22("P1")
 oled = kooka.display
 oled.setfont(fonts.mono6x7) # Set font size to be smaller than default 8x8
 
-# INITIALISE the BME280 sensor variables
+# INITIALISE the DHT22 sensor variables
 temperature = None
 humidity = None
 
@@ -47,7 +47,7 @@ while True:
         sleep(2) # DHT sensors require 1-2 seconds between readings
         humidity = "Humidity: {:.2f}%".format(dht.humidity())
 
-        # PRINT the the lux level on the REPL console
+        # PRINT the readings on the REPL console
         print(temperature)
         print(humidity)
 
